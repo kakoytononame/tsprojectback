@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using tsproject.Core.Context;
-
+using tsproject.Infrastructure.Contexts;
 namespace tsproject.Infrastructure
 {
     public static class DependencyInjection
@@ -12,8 +12,8 @@ namespace tsproject.Infrastructure
         {
             string connectionString = configuration.GetConnectionString("SecondConnection");
 
-            services.AddDBContext<IApplicationContextEF, ApplicationContextEF>(options =>
-             options.UseMssql(
+            services.AddDbContext<IApplicationContextEF, ApplicationContextEF>(options =>
+             options.UseMysql(
                  connectionString,
                  ServerVersion.AutoDetect(connectionString),
                  options => options.EnableRetryonFailure(
@@ -21,7 +21,7 @@ namespace tsproject.Infrastructure
                      maxRetryDelay: System.TimeSpan.FromSeconds(30),
                      errorNumbersToAdd: null
                      )
-             );
+             ));
             return services;
         }
     }

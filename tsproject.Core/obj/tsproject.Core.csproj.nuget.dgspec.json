@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Core\\tsproject.Core.csproj": {}
+    "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Core\\tsproject.Core.csproj": {
+    "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Core\\tsproject.Core.csproj",
+        "projectUniqueName": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj",
         "projectName": "tsproject.Core",
-        "projectPath": "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Core\\tsproject.Core.csproj",
-        "packagesPath": "C:\\Users\\timur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Core\\obj\\",
+        "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj",
+        "packagesPath": "C:\\Users\\тимур\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\timur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\тимур\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
