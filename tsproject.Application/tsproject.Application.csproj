@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\tsproject.Core\tsproject.Core.csproj" />
+  </ItemGroup>
+
 </Project>

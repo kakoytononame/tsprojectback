@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "dgSpecHash": "YXO5Ncz1X9gPKsdBVIJwr5eEnXgor2l9sjtpeNrolt2qLyRERuIFHxX9jdofPS0W3M1LItaVVXJtlAEuXL7eHA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\timur\\Documents\\GitHub\\tsprojectback\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.0-preview.1.23111.4\\microsoft.entityframeworkcore.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.0-preview.1.23111.4\\microsoft.entityframeworkcore.abstractions.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.0-preview.1.23111.4\\microsoft.entityframeworkcore.analyzers.8.0.0-preview.1.23111.4.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0-preview.1.23110.8\\microsoft.extensions.caching.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0-preview.1.23110.8\\microsoft.extensions.caching.memory.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0-preview.1.23110.8\\microsoft.extensions.dependencyinjection.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0-preview.1.23110.8\\microsoft.extensions.logging.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0-preview.1.23110.8\\microsoft.extensions.logging.abstractions.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.options\\8.0.0-preview.1.23110.8\\microsoft.extensions.options.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0-preview.1.23110.8\\microsoft.extensions.primitives.8.0.0-preview.1.23110.8.nupkg.sha512",
+    "C:\\Users\\timur\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Обнаружено понижение версии пакета Microsoft.Extensions.DependencyInjection.Abstractions с 8.0.0-preview.1.23110.8 на 7.0.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n tsproject.Infrastructure -> tsproject.Core -> Microsoft.EntityFrameworkCore 8.0.0-preview.1.23111.4 -> Microsoft.Extensions.Caching.Memory 8.0.0-preview.1.23110.8 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0-preview.1.23110.8) \r\n tsproject.Infrastructure -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 7.0.0)",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Обнаружено понижение версии пакета Microsoft.Extensions.DependencyInjection.Abstractions с 8.0.0-preview.1.23110.8 на 7.0.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n tsproject.Infrastructure -> tsproject.Core -> Microsoft.EntityFrameworkCore 8.0.0-preview.1.23111.4 -> Microsoft.Extensions.DependencyInjection 8.0.0-preview.1.23110.8 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0-preview.1.23110.8) \r\n tsproject.Infrastructure -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 7.0.0)",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Обнаружено понижение версии пакета Microsoft.Extensions.DependencyInjection.Abstractions с 8.0.0-preview.1.23110.8 на 7.0.0. Чтобы выбрать другую версию, создайте ссылку на пакет напрямую из проекта. \r\n tsproject.Infrastructure -> tsproject.Core -> Microsoft.EntityFrameworkCore 8.0.0-preview.1.23111.4 -> Microsoft.Extensions.Logging 8.0.0-preview.1.23110.8 -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 8.0.0-preview.1.23110.8) \r\n tsproject.Infrastructure -> Microsoft.Extensions.DependencyInjection.Abstractions (>= 7.0.0)",
+      "libraryId": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

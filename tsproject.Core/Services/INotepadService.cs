@@ -4,6 +4,6 @@ namespace tsproject.Core.Services
 {
     public interface INotepadService
     {
-        Task<IEnumerable<NotepadDTO>> GetNotepadByUserAsync(string path);
+        Task<IEnumerable<NotepadDTO>> GetNotepadByUserAsync(string name);
     }
 }

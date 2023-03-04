@@ -9,6 +9,6 @@ namespace tsproject.Core.Repository
 {
     public interface INoteRepository
     {
-        public Task<IEnumerable<NoteDTO>> GetNotesbyUserAsync(int userId);
+        public Task<IEnumerable<NoteDTO>> GetNotesbyUserAsync(string name);
     }
 }

@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace tsproject.Core.Context
 {
+#pragma warning disable CS8618
     public class IApplicationContextEF
     {
         DbSet<tsproject.Core.Entities.Directory> Directorys { get; set; }

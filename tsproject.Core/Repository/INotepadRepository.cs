@@ -9,7 +9,7 @@ namespace tsproject.Core.Repository
 {
     public interface INotepadRepository
     {
-        public Task<IEnumerable<NotepadDTO>> GetNotepadsbyUserAsync(int userId);
+        public Task<IEnumerable<NotepadDTO>> GetNotepadsbyUserAsync(string name);
 
     }
 }

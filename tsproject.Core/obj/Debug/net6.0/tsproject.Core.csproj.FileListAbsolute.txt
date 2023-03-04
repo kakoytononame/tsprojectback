@@ -1,0 +1,12 @@
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\bin\Debug\net6.0\tsproject.Core.deps.json
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\bin\Debug\net6.0\tsproject.Core.dll
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\bin\Debug\net6.0\tsproject.Core.pdb
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.csproj.AssemblyReference.cache
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.AssemblyInfoInputs.cache
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.AssemblyInfo.cs
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.csproj.CoreCompileInputs.cache
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.dll
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\refint\tsproject.Core.dll
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.pdb
+C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\ref\tsproject.Core.dll

@@ -3,6 +3,6 @@ namespace tsproject.Core.Services
 {
     public interface IDirectoryService
     {
-        Task<IEnumerable<DirectoryDTO>> GetDirectoryByUserAsync(string path);
+        Task<IEnumerable<DirectoryDTO>> GetDirectoryByUserAsync(int id);
     }
 }
