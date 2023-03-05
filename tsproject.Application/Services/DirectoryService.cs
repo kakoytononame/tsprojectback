@@ -21,7 +21,7 @@ namespace tsproject.Application.Services
 
         public async Task<IEnumerable<DirectoryDTO>> GetDirectoryByUserAsync(int id)
         {
-            IEnumerable<DirectoryDTO> directorys = await _directoryrepository.GetDirectorysbyUserAsync(id);
+            IEnumerable<DirectoryDTO> directorys = await _directoryrepository.GetDirectoryByUserAsync(id);
             return directorys;
         }
     }

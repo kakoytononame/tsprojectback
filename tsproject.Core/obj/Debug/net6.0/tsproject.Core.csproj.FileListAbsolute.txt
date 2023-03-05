@@ -10,3 +10,15 @@ C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\ts
 C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\refint\tsproject.Core.dll
 C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\tsproject.Core.pdb
 C:\Users\timur\Documents\GitHub\tsprojectback\tsproject.Core\obj\Debug\net6.0\ref\tsproject.Core.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\bin\Debug\net6.0\tsproject.Core.deps.json
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\bin\Debug\net6.0\tsproject.Core.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\bin\Debug\net6.0\tsproject.Core.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.csproj.AssemblyReference.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.AssemblyInfoInputs.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.AssemblyInfo.cs
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.csproj.CoreCompileInputs.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\refint\tsproject.Core.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\tsproject.Core.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.Core\obj\Debug\net6.0\ref\tsproject.Core.dll

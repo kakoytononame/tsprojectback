@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\tsproject.Application\tsproject.Application.csproj" />
     <ProjectReference Include="..\tsproject.Core\tsproject.Core.csproj" />
+    <ProjectReference Include="..\tsproject.Infrastructure\tsproject.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

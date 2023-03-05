@@ -4,6 +4,74 @@
     "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.WebAPI\\tsproject.WebAPI.csproj": {}
   },
   "projects": {
+    "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\tsproject.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\tsproject.Application.csproj",
+        "projectName": "tsproject.Application",
+        "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\tsproject.Application.csproj",
+        "packagesPath": "C:\\Users\\тимур\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\тимур\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {
+                "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -46,7 +114,95 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.1.23111.4, )"
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj",
+        "projectName": "tsproject.Infrastructure",
+        "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\тимур\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\тимур\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {
+                "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -96,8 +252,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\tsproject.Application.csproj": {
+                "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Application\\tsproject.Application.csproj"
+              },
               "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj": {
                 "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Core\\tsproject.Core.csproj"
+              },
+              "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\тимур\\source\\repos\\tsproject\\tsproject.Infrastructure\\tsproject.Infrastructure.csproj"
               }
             }
           }

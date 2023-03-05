@@ -1,8 +1,12 @@
 ﻿
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using tsproject.Core.Context;
+using tsproject.Core.Contexts;
+using tsproject.Core.Repository;
 using tsproject.Infrastructure.Contexts;
+using tsproject.Infrastructure.Repository;
 namespace tsproject.Infrastructure
 {
     public static class DependencyInjection
@@ -10,19 +14,25 @@ namespace tsproject.Infrastructure
         public static IServiceCollection AddServicesInfrastructure(this IServiceCollection services,
            IConfiguration configuration)
         {
-            string connectionString = configuration.GetConnectionString("SecondConnection");
+            string connectionString = configuration.GetConnectionString("MySqlConnection");
 
-            services.AddDbContext<IApplicationContextEF, ApplicationContextEF>(options =>
-             options.UseMysql(
-                 connectionString,
-                 ServerVersion.AutoDetect(connectionString),
-                 options => options.EnableRetryonFailure(
-                     maxRetryCount: 5,
-                     maxRetryDelay: System.TimeSpan.FromSeconds(30),
-                     errorNumbersToAdd: null
-                     )
-             ));
+            //services.AddDbContext<IApplicationContextEF, ApplicationContextEF>(options =>
+            // options.UseMySql(
+            //     connectionString,
+            //     ServerVersion.AutoDetect(connectionString),
+            //     options => options.EnableRetryOnFailure(
+            //         maxRetryCount: 5,
+            //         maxRetryDelay: System.TimeSpan.FromSeconds(30),
+            //         errorNumbersToAdd: null
+            //         )
+             //));
+
+            services.AddSingleton<IApplicationContextDapper, ApplicationContextDapper>();
+            services.AddScoped<IDirectoryRepository, DirectoryRepository>();
             return services;
+
         }
     }
+
+
 }

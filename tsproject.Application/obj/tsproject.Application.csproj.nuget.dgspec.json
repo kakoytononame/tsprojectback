@@ -47,6 +47,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -108,7 +114,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.0-preview.1.23111.4, )"
+              "version": "[6.0.7, )"
             }
           },
           "imports": [

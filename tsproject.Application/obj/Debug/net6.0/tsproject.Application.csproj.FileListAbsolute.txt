@@ -1,0 +1,15 @@
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\bin\Debug\net6.0\tsproject.Application.deps.json
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\bin\Debug\net6.0\tsproject.Application.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\bin\Debug\net6.0\tsproject.Application.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\bin\Debug\net6.0\tsproject.Core.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\bin\Debug\net6.0\tsproject.Core.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.csproj.AssemblyReference.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.AssemblyInfoInputs.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.AssemblyInfo.cs
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.csproj.CoreCompileInputs.cache
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.csproj.CopyComplete
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\refint\tsproject.Application.dll
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\tsproject.Application.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.Application\obj\Debug\net6.0\ref\tsproject.Application.dll

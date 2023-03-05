@@ -6,7 +6,7 @@ namespace tsproject.Core.Repository
 {
     public interface IDirectoryRepository
     {
-        public Task<IEnumerable<DirectoryDTO>> GetDirectorysbyUserAsync(int userId);
+        public Task<IEnumerable<DirectoryDTO>> GetDirectoryByUserAsync(int userId);
         
     }
 
