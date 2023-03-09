@@ -13,7 +13,8 @@ namespace tsproject.Application
 
 
             services.AddScoped<IDirectoryService, DirectoryService>();
-
+            services.AddScoped<INotepadService, NotepadService>();
+            services.AddScoped<INoteService, NoteService>();
 
             return services;
         }

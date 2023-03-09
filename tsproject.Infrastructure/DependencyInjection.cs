@@ -29,6 +29,8 @@ namespace tsproject.Infrastructure
 
             services.AddSingleton<IApplicationContextDapper, ApplicationContextDapper>();
             services.AddScoped<IDirectoryRepository, DirectoryRepository>();
+            services.AddScoped<INotepadRepository, NotepadRepository>();
+            services.AddScoped<INoteRepository, NoteRepository>();
             return services;
 
         }

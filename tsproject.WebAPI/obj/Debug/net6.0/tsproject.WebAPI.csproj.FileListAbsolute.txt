@@ -103,3 +103,8 @@ C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\bin\Debug\net6.0\tsp
 C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\bin\Debug\net6.0\tsproject.Infrastructure.dll
 C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\bin\Debug\net6.0\tsproject.Application.pdb
 C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\bin\Debug\net6.0\tsproject.Infrastructure.pdb
+C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.tsproject.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.tsproject.WebAPI.props
+C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.tsproject.WebAPI.props
+C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.tsproject.WebAPI.props
+C:\Users\тимур\source\repos\tsproject\tsproject.WebAPI\obj\Debug\net6.0\staticwebassets.pack.json

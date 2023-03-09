@@ -5,6 +5,6 @@
         
         public string? Name { get; set; }
 
-        public long? text { get; set; }
+        public string? text { get; set; }
     }
 }
